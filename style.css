@@ -141,6 +141,127 @@ h1 {
 
 }
 
+
+.badgues-contenedor {
+
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+.badgues {
+
+    margin: 5px;
+}
+
+.experiencia .columna {
+
+
+    padding: 20px;
+    border: 2px solid #80804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s step-end;
+}
+
+.experiencia .columna:hover {
+
+    color: white;
+    background-color: #1b1b32;
+}
+
+
+.proyectos {
+    padding: 40px;
+}
+
+.texto-negro {
+
+
+    color: black;
+}
+
+.seccion-descripcion {
+
+    font-size: 1.3rem;
+    color: #584e4e;
+}
+
+.proyectos img {
+
+
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+
+    padding-top: 60px;
+    margin-bottom: 40px
+}
+
+.overlay {
+
+    transition: all 0.2s ease;
+
+    /*transparencia*/
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.proyectos:hover .overlay {
+    opacity: 1;
+}
+
+.proyectos:hover img {
+
+
+    opacity: 0.2;
+}
+
+
+.proyectos {
+
+    position: relative;
+}
+
+.overlay .iconos-contenedor {
+
+    display: flex;
+}
+
+.overlay a {
+
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+
+
+}
+.btn-info{}
+
+
+
 /*responsivo*/
 @media screen and (max-width:767px) {
 
